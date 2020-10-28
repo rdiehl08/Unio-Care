@@ -55,7 +55,7 @@
     top: 80%;
     transform: translateY(-50%);
     bottom: initial!important;
-    color: rgb(75, 189, 255);
+    color: rgb(75, 132, 255);
     font-size: x-large;
     font-weight: bold;
 }
@@ -601,4 +601,16 @@
 }
 #contact {
     background-image: linear-gradient(rgb(0, 70,175), rgb(75, 189, 255));
+}
+
+#footer {
+    background-image: linear-gradient(rgb(68, 68, 68), rgb(100, 100, 100));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+}
+#footer h4 {
+    text-align: center;
+    color:white;
 }
