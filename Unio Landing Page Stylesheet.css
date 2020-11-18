@@ -9,7 +9,7 @@
     border-bottom: white solid 2px;
 }
 .navbar-brand img {
-    height: 65px;
+    height: 70px;
     padding-left: 1%;
 }
 .navbar-CompanyName {
@@ -35,7 +35,7 @@
     border: solid 1px white;
 }
 .navbar {
-    background-image: linear-gradient(rgb(30, 120, 255), rgb(224, 224, 224));
+    background-image: linear-gradient(rgb(5, 51, 119), rgb(0, 90, 180));
     max-height: 100px;
 }
 .navbar-toggler {
