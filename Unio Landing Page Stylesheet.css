@@ -52,7 +52,7 @@
     opacity: 0.8;
 }
 .carousel-caption {
-    top: 80%;
+    top: 90%;
     transform: translateY(-50%);
     bottom: initial!important;
     color: rgb(5, 51, 119);
