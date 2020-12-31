@@ -591,20 +591,20 @@
     margin: 2px 5px 0 5px;
 }
 
-#promo2 {
+#ourleadership {
     background-image: linear-gradient(rgb(5, 51, 119), rgb(0, 90, 180));
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
     text-align: center;
     padding: 20px;
 }
-#promo2 h2 {
+#ourleadership h2 {
     text-align: center;
     color:white;
     padding-bottom: 5px;
     font-weight: bold;
 }
-#promo2 h2::after {
+#ourleadership h2::after {
     content: '';
     background: white;
     display: block;
