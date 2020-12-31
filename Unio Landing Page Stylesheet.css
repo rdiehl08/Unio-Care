@@ -78,6 +78,13 @@
     margin-left: 5%;
 }
 
+.intro-content h2 {
+    font-weight: bold;
+}
+.intro-content p {
+    font-weight: normal;
+}
+
 .skills-bar p {
     margin: 5px 0 6px 0;
     font-weight: 400;
@@ -99,9 +106,15 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+#services h5 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
 #services h2 {
     color: white;
     text-align: center;
+    font-weight: bold;
 }
 #services h2::after {
     content: '';
@@ -114,6 +127,7 @@
 #services p {
     font-size: small;
     margin-top: 5px;
+    font-weight: lighter;
 }
 .services {
     margin: 10px 0 0 0;
@@ -161,6 +175,78 @@
     height: auto;
     margin: 15% 0 3% 0%;
     border-radius: 10%;
+}
+
+/*------------------The Insights----------------*/
+
+#insights {
+    padding: 20px 0;
+    color: #555555;
+}
+#insights h2 {
+    text-align: center;
+    margin-top: 20px 0 10px 0;
+    padding-top: 10px;
+    font-weight: bold;
+}
+#insights h2::after {
+    content: '';
+    background: #555555;
+    display: block;
+    height: 1px;
+    width: 200px;
+    margin: 10px auto 40px;
+}
+#insights h4 {
+    text-align: center;
+    margin-top: 10px 0 10px 0;
+    padding-top: 10px;
+    font-weight: bold;
+}
+#insights h4::after {
+    content: '';
+    background: #555555;
+    display: block;
+    height: 1px;
+    width: 100px;
+    margin: 10px auto 5px;
+}
+#insights img {
+    float: none;
+    height: auto;
+    margin: 5% 0% 5% 0%;
+    padding-top: 5%;
+}
+#insights ul {
+    list-style: none;
+    padding-right: 4px;
+}
+#insights li {
+    list-style: none;
+    padding-top: 5px;
+}
+.insights-filler {
+    background-image: radial-gradient(rgb(5, 51, 119, 0.8), rgb(0, 90, 180, 0.8));
+}
+.insights-content {
+    display: inline;
+    border-radius: 20%;
+}
+.insights-content ul li {
+    border-bottom: 1px solid rgb(0, 70, 175);
+    padding: 3% 2%;
+    list-style: none;
+    text-align: center;
+    font-weight: lighter;
+}
+.insights-content ul li:hover {
+    transition: 0.5s;
+    border: 1px solid white;
+    padding: 3% 2%;
+    color: white;
+    background-color: rgb(0, 70, 175);
+    list-style: none;
+    text-align: center;
 }
 
 /*------------------Our Services-----------------*/
@@ -211,7 +297,6 @@
 }
 .about-content {
     display: inline;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 20%;
 }
 .about-content ul li {
@@ -233,31 +318,6 @@
 .about-content ul {
     list-style: square;
     padding-top: 10px;
-}
-
-.about-data {
-    display: inline;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 20%;
-}
-.about-data:hover {
-    border: 2px grey solid;
-    border-radius: 20%;
-}
-.about-data ul li {
-    border-bottom: 1px solid #555;
-    padding: 3% 2%;
-    list-style: none;
-    text-align: center;
-}
-.about-data ul li:hover {
-    transition: 0.5s;
-    border: 1px solid white;
-    padding: 3% 2%;
-    color: white;
-    background-color: rgb(0, 70, 175);
-    list-style: none;
-    text-align: center;
 }
 .about-uniocare {
     display: inline;
@@ -310,76 +370,6 @@
     text-align: left;
 }
 
-/*------------------The Insights----------------*/
-
-#insights {
-    padding: 20px 0;
-    color: #555555;
-}
-#insights h2 {
-    text-align: center;
-    margin-top: 20px 0 10px 0;
-    padding-top: 10px;
-}
-#insights h2::after {
-    content: '';
-    background: #555555;
-    display: block;
-    height: 1px;
-    width: 200px;
-    margin: 10px auto 40px;
-}
-#insights h4 {
-    text-align: center;
-    margin-top: 10px 0 10px 0;
-    padding-top: 10px;
-}
-#insights h4::after {
-    content: '';
-    background: #555555;
-    display: block;
-    height: 1px;
-    width: 100px;
-    margin: 10px auto 5px;
-}
-#insights img {
-    float: none;
-    height: auto;
-    margin: 5% 0% 5% 0%;
-    padding-top: 5%;
-}
-#insights ul {
-    list-style: none;
-    padding-right: 4px;
-}
-#insights li {
-    list-style: none;
-    padding-top: 5px;
-}
-.insights-filler {
-    background-image: radial-gradient(rgb(5, 51, 119, 0.8), rgb(0, 90, 180, 0.8));
-}
-.insights-content {
-    display: inline;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 20%;
-}
-.insights-content ul li {
-    border-bottom: 1px solid rgb(0, 70, 175);
-    padding: 3% 2%;
-    list-style: none;
-    text-align: center;
-}
-.insights-content ul li:hover {
-    transition: 0.5s;
-    border: 1px solid white;
-    padding: 3% 2%;
-    color: white;
-    background-color: rgb(0, 70, 175);
-    list-style: none;
-    text-align: center;
-}
-
 /*------------------Promo Strip------------------*/
 
 #promo1 {
@@ -387,6 +377,7 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
+    font-weight: bold;
     text-align: center;
     padding: 5px;
 }
@@ -526,9 +517,10 @@
     text-align: center;
     color: #555;
     padding-bottom: 10px;
+    font-weight: bold;
 }
 #team p {
-    font-size: large;
+    font-size: normal;
     padding-top: 3%;
 }
 #team h2::after {
@@ -542,6 +534,11 @@
 .team h3 {
     border-bottom: solid 1px #555555;
     margin-bottom: 2%;
+}
+.team h4 {
+    border-bottom: solid 1px #555555;
+    margin-bottom: 2%;
+    font-style: italic;
 }
 .teamInfo {
     display: inline;
@@ -604,7 +601,8 @@
 #promo2 h2 {
     text-align: center;
     color:white;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
 }
 #promo2 h2::after {
     content: '';
