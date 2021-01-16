@@ -8,7 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    border-bottom: white solid 2px;
+    border-bottom: #efefed solid 2px;
 }
 .navbar-brand img {
     height: 70px;
@@ -17,10 +17,10 @@
 .navbar-CompanyName {
     font-size: xx-large;
     font-weight: 700;
-    border-bottom: white solid .75px;
+    border-bottom: #efefed solid .75px;
     text-align: center;
     margin-left: 1%;
-    color: white;
+    color: #efefed;
 }
 
 .navbar-nav li {
@@ -29,20 +29,21 @@
 .navbar-nav li a {
     float: right;
     text-align: left;
-    color: white!important;
+    color: #9ed8d8!important;
 }
 #nav-bar ul li a:hover {
-    border: solid 1px white;
+    border: 1px #ff6b6b solid;
 }
+
 .navbar {
-    background-image: linear-gradient(rgb(5, 51, 119), rgb(0, 90, 180));
+    background: rgb(28,50,83);
     max-height: 100px;
 }
 .navbar-toggler {
     border: none!important;
 }
 .nav-link {
-    color: #555!important;
+    color: #1d3354!important;
     font-weight: 400;
     font-size: 16px;
 }
@@ -55,7 +56,8 @@
     top: 90%;
     transform: translateY(-50%);
     bottom: initial!important;
-    color: rgb(5, 51, 119);
+    color: rgb(28,50,83)
+    ;
     font-size: x-large;
     font-weight: bold;
 }
@@ -65,13 +67,19 @@
 }
 #intro {
     margin-top: 5px;
-    color: #555;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #1d3354;
 }
 #intro .btn {
-    margin: 20px 0 20px 0;
-    background-color: rgb(0, 90, 180);
-    border: none;
+    margin: 10px 0 10px 0;
+    background-color: #9ed8d8;
+    color: #1d3354;
+    border: solid 1px #1d3354;
+}
+#intro .btn:hover {
+    background-color: #ff6b6b;
+    color: #1d3354;
+    border: solid 1px #1d3354;
+    font-weight: bold;
 }
 
 #intro li {
@@ -91,34 +99,33 @@
 }
 .progress-bar {
     border-radius: 16px;
-    background-color: rgb(5, 51, 119)
+    background-color: rgb(198, 186, 181);
 }
 .progress {
     border-radius: 16px!important;
-    background-color: rgb(5, 51, 119);
+    background-color: rgb(70, 117, 152);
 }
 
 #services {
-    background-image: linear-gradient(rgb(5, 51, 119), rgb(0, 90, 180));
+    background: rgb(28,50,83);
     background-size: cover;
     background-position: center;
     padding: 5px 0 5px 0;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #efefed;
 }
 #services h5 {
-    color: white;
+    color: #efefed;
     text-align: center;
     font-weight: bold;
 }
 #services h2 {
-    color: white;
+    color: #efefed;
     text-align: center;
     font-weight: bold;
 }
 #services h2::after {
     content: '';
-    background: #efefef;
+    background: #ff6b6b;
     display: block;
     height: 1px;
     width: 200px;
@@ -134,29 +141,29 @@
 }
 .icon {
     font-size: 40px;
-    margin: 3px auto;
+    margin: 1px auto;
     height: 55%;
     width: 25%;
-    border: solid white 1px;
-    border-radius: 50%;
 }
 .services .col-md-6:hover {
-    background: #555;
+    background: rgba(159,217,219,0.7);
+    border: #ff6b6b solid 1px;
+    border-radius: 10px;
     cursor: pointer;
-    transition: 1s;
+    transition: 1.25s;
 }
 .services-uniocare ul li {
-    border-bottom: 0.5px solid blue;
+    border-bottom: 0.5px solid #467598;
     padding: 8% 4%;
     list-style: none;
     text-align: right;
 }
 .services-uniocare ul li:hover {
     transition: 0.5s;
-    border: 1px solid white;
+    border: 1px solid #efefed;
     padding: 6% 3%;
-    color: white;
-    background-color: rgb(0, 70, 175);
+    color: #efefed;
+    background-color: rgb(28,50,83);
     list-style: none;
     text-align: center;
 }
@@ -181,7 +188,7 @@
 
 #insights {
     padding: 20px 0;
-    color: #555555;
+    color: rgb(28, 50, 83);
 }
 #insights h2 {
     text-align: center;
@@ -191,7 +198,7 @@
 }
 #insights h2::after {
     content: '';
-    background: #555555;
+    background: #242828;
     display: block;
     height: 1px;
     width: 200px;
@@ -205,7 +212,7 @@
 }
 #insights h4::after {
     content: '';
-    background: #555555;
+    background: #242828;
     display: block;
     height: 1px;
     width: 100px;
@@ -226,25 +233,25 @@
     padding-top: 5px;
 }
 .insights-filler {
-    background-image: radial-gradient(rgb(5, 51, 119, 0.8), rgb(0, 90, 180, 0.8));
+    background: #1d3354;
 }
 .insights-content {
     display: inline;
     border-radius: 20%;
 }
 .insights-content ul li {
-    border-bottom: 1px solid rgb(0, 70, 175);
-    padding: 3% 2%;
+    border-bottom: 1px solid rgb(28, 50, 83);
+    padding: 4% 0% 2%;
     list-style: none;
     text-align: center;
     font-weight: lighter;
 }
 .insights-content ul li:hover {
     transition: 0.5s;
-    border: 1px solid white;
-    padding: 3% 2%;
-    color: white;
-    background-color: rgb(0, 70, 175);
+    border: 1px solid #9ed8d8;
+    padding: 2% 0% 1%;
+    color: #9ed8d8;
+    background-color: rgb(28, 50, 83);
     list-style: none;
     text-align: center;
 }
@@ -252,7 +259,7 @@
 /*------------------Our Services-----------------*/
 #about {
     padding: 20px 0;
-    color: #555555;
+    color: #1d3354;
 }
 #about h1 {
     text-align: center;
@@ -261,7 +268,7 @@
 }
 #about h1::after {
     content: '';
-    background: #555555;
+    background: #1d3354;
     display: block;
     height: 1px;
     width: 200px;
@@ -274,7 +281,7 @@
 }
 #about h4::after {
     content: '';
-    background: #555555;
+    background: #1d3354;
     display: block;
     height: 1px;
     width: 100px;
@@ -300,17 +307,17 @@
     border-radius: 20%;
 }
 .about-content ul li {
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid #1d3354;
     padding: 3% 2%;
     list-style: none;
     text-align: center;
 }
 .about-content ul li:hover {
     transition: 0.5s;
-    border: 1px solid white;
+    border: 1px solid #efefed;
     padding: 3% 2%;
     color: white;
-    background-color: #555;
+    background-color: #c6bab5;
     list-style: none;
     text-align: center;
 }
@@ -330,19 +337,18 @@
 }
 
 .about-uniocare ul li {
-    border-bottom: 0.5px solid blue;
-    padding: 8% 4%;
+    border-bottom: 0.5px solid #1d3354;
+    padding: 8% 1% 4%;
     list-style: none;
     text-align: right;
 }
 .about-uniocare ul li:hover {
     transition: 0.5s;
-    border: 1px solid white;
-    padding: 6% 3%;
-    color: white;
-    background-color: rgb(0, 70, 175);
+    padding: 6% 1% 3%;
+    color: #9ed8d8;
+    background-color: rgb(28, 50, 83);
     list-style: none;
-    text-align: center;
+    text-align: right;
 }
 
 .about-unioadmin {
@@ -355,17 +361,16 @@
     border-radius: 20%;
 }
 .about-unioadmin ul li {
-    border-bottom: 0.5px solid blue;
-    padding: 8% 4%;
+    border-bottom: 0.5px solid #1d3354;
+    padding: 8% 0% 4% 1%;
     list-style: none;
     text-align: left;
 }
 .about-unioadmin ul li:hover {
     transition: 0.5s;
-    border: 1px solid white;
-    padding: 6% 3%;
-    color: white;
-    background-color: rgb(0, 70, 175);
+    padding: 6% 0% 3% 1%; 
+    color: #9ed8d8;
+    background-color: rgb(28, 50, 83);
     list-style: none;
     text-align: left;
 }
@@ -373,15 +378,25 @@
 /*------------------Promo Strip------------------*/
 
 #promo1 {
-    background-image: linear-gradient(rgb(5, 51, 119), rgb(0, 90, 180));
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background:rgb(0,49,83);
+    color: #efefed;
     font-size: large;
     font-weight: bold;
     text-align: center;
     padding: 5px;
 }
-
+#promo1 .btn {
+    margin: 10px 0 10px 0;
+    background-color: #9ed8d8;
+    color: #1d3354;
+    border: solid 1px #1d3354;
+}
+#promo1 .btn:hover {
+    background-color: #ff6b6b;
+    color: #1d3354;
+    border: solid 1px #1d3354;
+    font-weight: bold;
+}
 /*--------------------Price Plans----------------*/
 
 #price {
@@ -510,57 +525,56 @@
 /*---------------Our Team--------------*/
 #team {
     padding: 30px 0 20px 0;
-    color: #555;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #team h2 {
     text-align: center;
-    color: #555;
+    color: #1d3354;
     padding-bottom: 10px;
     font-weight: bold;
 }
 #team p {
     font-size: normal;
     padding-top: 3%;
+    color: #467598;
 }
 #team h2::after {
     content: '';
-    background: #555555;
+    background: #1d3354;
     display: block;
     height: 1px;
     width: 200px;
     margin: 10px auto 5px;
 }
 .team h3 {
-    border-bottom: solid 1px #555555;
+    border-bottom: solid 1px #1d3354;
     margin-bottom: 2%;
 }
 .team h4 {
-    border-bottom: solid 1px #555555;
+    border-bottom: solid 1px #1d3354;
     margin-bottom: 2%;
     font-style: italic;
+    color: #467598!important;
 }
 .teamInfo {
     display: inline;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 20%;
 }
 .teamInfo:hover {
-    border: 1px white solid;
+    border: 1px #efefed solid;
 
 }
 .teamInfo ul li {
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid #1d3354;
     padding: 3% 2%;
     list-style: none;
     text-align: center;
 }
 .teamInfo ul li:hover {
     transition: 0.5s;
-    border: 1px solid white;
+    border: 1px solid #efefed;
     padding: 3% 2%;
-    color: white;
-    background-color: rgb(0, 70, 175);
+    color: #efefed;
+    background-color: #1d3354;
     list-style: none;
     text-align: center;
 }
@@ -592,21 +606,20 @@
 }
 
 #ourleadership {
-    background-image: linear-gradient(rgb(5, 51, 119), rgb(0, 90, 180));
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(28,50,83);
     font-size: large;
     text-align: center;
     padding: 20px;
 }
 #ourleadership h2 {
     text-align: center;
-    color:white;
+    color:#efefed;
     padding-bottom: 5px;
     font-weight: bold;
 }
 #ourleadership h2::after {
     content: '';
-    background: white;
+    background: #ff6b6b;
     display: block;
     height: 1px;
     width: 200px;
@@ -617,34 +630,33 @@
 #contact {
     padding: 30px 0 20px 0;
     color: #555;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #contact h2 {
     text-align: center;
-    color:white;
+    color:#efefed;
     padding-bottom: 10px;
     font-weight: bold;
 }
 #contact h2::after {
     content: '';
-    background: white;
+    background: #ff6b6b;
     display: block;
     height: 1px;
     width: 200px;
     margin: 10px auto 5px;
 }
 #contact {
-    background-image: linear-gradient(rgb(5, 51, 119), rgb(0, 90, 180));
+    background: rgb(28,50,83);
 }
 
 #footer {
-    background-image: linear-gradient(rgb(68, 68, 68), rgb(100, 100, 100));
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(159,217,219);
     font-size: large;
     text-align: center;
-    padding: 5px;
+    height: auto;
 }
 #footer h4 {
     text-align: center;
-    color:white;
+    color: #1d3354;
+    padding-top: 15px;
 }
