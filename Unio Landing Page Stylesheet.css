@@ -248,6 +248,16 @@ color: #efefed;
     border-radius: 16px!important;
     background-color: rgb(70, 117, 152);
 }
+@media (max-width: 768px) {
+    .progress {
+        margin-bottom: 2%;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .progress {
+        margin-bottom: 2%;
+    }
 
 #services {
     background: rgb(28,50,83);
