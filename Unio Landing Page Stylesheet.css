@@ -197,12 +197,14 @@ color: #efefed;
     }
     #slider img {
       width: 70%;
+      height: auto;
     }
   }
   
   @media (max-width: 575px) {
     #slider img {
       width: 80%;
+      height: auto;
     }
   }
 
