@@ -47,112 +47,123 @@
     font-weight: 400;
     font-size: 16px;
 }
+@media (max-width: 1366px) {
+    .nav-menu .drop-down .drop-down ul {
+      left: -90%;
+    }
+    .nav-menu .drop-down .drop-down:hover > ul {
+      left: -100%;
+    }
+    .nav-menu .drop-down .drop-down > a:after {
+      content: "\ea9d";
+    }
+  }
 
-  /* Mobile Navigation */
-  .mobile-navbar-toggler {
-    position: fixed;
-    top: 20px;
-    right: 15px;
-    z-index: 9998;
-    border: 0;
-    background: none;
-    font-size: 24px;
-    transition: all 0.4s;
-    outline: none !important;
-    line-height: 1;
-    cursor: pointer;
-    text-align: right;
-  }
-  
-  .mobile-navbar-toggler i {
-    color: #efefed;
-  }
-  
-  .mobile-nav-bar {
-    position: fixed;
-    top: 55px;
-    right: 15px;
-    bottom: 15px;
-    left: 15px;
-    z-index: 9999;
-    overflow-y: auto;
-    background: #efefed;
-    transition: ease-in-out 0.2s;
-    opacity: 0;
-    visibility: hidden;
-    border-radius: 10px;
-    padding: 10px 0;
-  }
-  
-  .mobile-navbar * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .mobile-navbar a {
-    display: block;
-    position: relative;
-    color: #1d3354;
-    padding: 10px 20px;
-    font-weight: 500;
-    outline: none;
-  }
-  
-  .mobile-navbar a:hover, .mobile-navbar .active > a, .mobile-navbar li:hover > a {
-    color: #9ed8d8;
-    text-decoration: none;
-  }
-  
-  .mobile-navbar .drop-down > a:after {
-    content: "\ea99";
-    padding-left: 10px;
-    position: absolute;
-    right: 15px;
-  }
-  
-  .mobile-navbar .active.drop-down > a:after {
-    content: "\eaa1";
-  }
-  
-  .mobile-navbar .drop-down > a {
-    padding-right: 35px;
-  }
-  
-  .mobile-navbar .drop-down ul {
-    display: none;
-    overflow: hidden;
-  }
-  
-  .mobile-navbar .drop-down li {
-    padding-left: 20px;
-  }
-  
-  .mobile-navbar-overly {
-    width: 100%;
-    height: 100%;
-    z-index: 9997;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: rgba(40, 58, 90, 0.6);
-    overflow: hidden;
-    display: none;
-    transition: ease-in-out 0.2s;
-  }
-  
-  .mobile-navbar-active {
-    overflow: hidden;
-  }
-  
-  .mobile-navbar-active .mobile-navbar {
-    opacity: 1;
-    visibility: visible;
-  }
-  
-  .mobile-navbar-active .mobile-navbar-toggle i {
-    color: #efefed;
-  }
+/* Mobile Navigation */
+.mobile-navbar-toggler {
+position: fixed;
+top: 20px;
+right: 15px;
+z-index: 9998;
+border: 0;
+background: none;
+font-size: 24px;
+transition: all 0.4s;
+outline: none !important;
+line-height: 1;
+cursor: pointer;
+text-align: right;
+}
+
+.mobile-navbar-toggler i {
+color: #efefed;
+}
+
+.mobile-nav-bar {
+position: fixed;
+top: 55px;
+right: 15px;
+bottom: 15px;
+left: 15px;
+z-index: 9999;
+overflow-y: auto;
+background: #efefed;
+transition: ease-in-out 0.2s;
+opacity: 0;
+visibility: hidden;
+border-radius: 10px;
+padding: 10px 0;
+}
+
+.mobile-navbar * {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.mobile-navbar a {
+display: block;
+position: relative;
+color: #1d3354;
+padding: 10px 20px;
+font-weight: 500;
+outline: none;
+}
+
+.mobile-navbar a:hover, .mobile-navbar .active > a, .mobile-navbar li:hover > a {
+color: #9ed8d8;
+text-decoration: none;
+}
+
+.mobile-navbar .drop-down > a:after {
+content: "\ea99";
+padding-left: 10px;
+position: absolute;
+right: 15px;
+}
+
+.mobile-navbar .active.drop-down > a:after {
+content: "\eaa1";
+}
+
+.mobile-navbar .drop-down > a {
+padding-right: 35px;
+}
+
+.mobile-navbar .drop-down ul {
+display: none;
+overflow: hidden;
+}
+
+.mobile-navbar .drop-down li {
+padding-left: 20px;
+}
+
+.mobile-navbar-overly {
+width: 100%;
+height: 100%;
+z-index: 9997;
+top: 0;
+left: 0;
+position: fixed;
+background: rgba(40, 58, 90, 0.6);
+overflow: hidden;
+display: none;
+transition: ease-in-out 0.2s;
+}
+
+.mobile-navbar-active {
+overflow: hidden;
+}
+
+.mobile-navbar-active .mobile-navbar {
+opacity: 1;
+visibility: visible;
+}
+
+.mobile-navbar-active .mobile-navbar-toggle i {
+color: #efefed;
+}
   
 
 .carousel-item img {
@@ -173,6 +184,28 @@
     max-width: 90%;
     margin: auto;
 }
+
+@media (max-width: 768px) {
+    #slider h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #slider h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+    #slider img {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    #slider img {
+      width: 80%;
+    }
+  }
+
 #intro {
     margin-top: 5px;
     color: #1d3354;
