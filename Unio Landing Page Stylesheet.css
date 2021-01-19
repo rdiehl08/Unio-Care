@@ -197,14 +197,25 @@ color: #efefed;
     }
     #slider img {
       width: 70%;
-      height: auto;
     }
   }
   
   @media (max-width: 575px) {
-    #slider img {
+    #hero .hero-img img {
       width: 80%;
-      height: auto;
+    }
+    #hero .btn-get-started {
+      font-size: 16px;
+      padding: 10px 24px 11px 24px;
+    }
+    #hero .btn-watch-video {
+      font-size: 16px;
+      padding: 10px 0 8px 40px;
+      margin-left: 20px;
+    }
+    #hero .btn-watch-video i {
+      font-size: 32px;
+      top: 7px;
     }
   }
 
@@ -248,16 +259,6 @@ color: #efefed;
     border-radius: 16px!important;
     background-color: rgb(70, 117, 152);
 }
-@media (max-width: 768px) {
-    .progress {
-        margin-bottom: 2%;
-    }
-  }
-  
-  @media (max-width: 575px) {
-    .progress {
-        margin-bottom: 2%;
-    }
 
 #services {
     background: rgb(28,50,83);
@@ -408,22 +409,6 @@ color: #efefed;
     list-style: none;
     text-align: center;
 }
-
-@media (max-width: 768px) {
-    .insights-content img {
-        width: 60%;
-        height: auto;
-    }
-  }
-  
-@media (max-width: 575px) {
-    .insights-content img {
-        width: 48%;
-        height: auto;
-        align-content: center;
-        margin-top: -2%;
-        margin-bottom: -2%;
-    }
 
 /*------------------Our Services-----------------*/
 #about {
