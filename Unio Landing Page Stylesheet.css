@@ -418,8 +418,9 @@ color: #efefed;
   
 @media (max-width: 575px) {
     .insights-content img {
-        width: 40%;
+        width: 48%;
         height: auto;
+        display: inline-flex;
     }
 
 /*------------------Our Services-----------------*/
