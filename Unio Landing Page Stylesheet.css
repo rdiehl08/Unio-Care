@@ -420,7 +420,9 @@ color: #efefed;
     .insights-content img {
         width: 48%;
         height: auto;
-        display: inline-flex;
+        align-content: center;
+        margin-top: -2%;
+        margin-bottom: -2%;
     }
 
 /*------------------Our Services-----------------*/
