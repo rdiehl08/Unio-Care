@@ -566,7 +566,11 @@ color: #efefed;
         text-align: center;
     }
     #about img {
+        float: none;
+        max-width: 90%;
+        height: auto;
         margin: auto;
+        border-radius: 10%;
     }
 }
 
@@ -600,7 +604,11 @@ color: #efefed;
         text-align: center;
     }
     #about img {
+        float: none;
+        max-width: 90%;
+        height: auto;
         margin: auto;
+        border-radius: 10%;
     }
 }
 
