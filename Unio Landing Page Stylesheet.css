@@ -201,24 +201,19 @@ color: #efefed;
   }
   
   @media (max-width: 575px) {
-    #hero .hero-img img {
-      width: 80%;
+    #slider h1 {
+        font-size: 28px;
+        line-height: 36px;
+      }
+      #slider h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+      }
+      #slider img {
+        width: 70%;
+      }
     }
-    #hero .btn-get-started {
-      font-size: 16px;
-      padding: 10px 24px 11px 24px;
-    }
-    #hero .btn-watch-video {
-      font-size: 16px;
-      padding: 10px 0 8px 40px;
-      margin-left: 20px;
-    }
-    #hero .btn-watch-video i {
-      font-size: 32px;
-      top: 7px;
-    }
-  }
-
 #intro {
     margin-top: 5px;
     color: #1d3354;
@@ -259,6 +254,18 @@ color: #efefed;
     border-radius: 16px!important;
     background-color: rgb(70, 117, 152);
 }
+
+@media (max-width: 768px) {
+    .progress {
+        margin-bottom: 2%;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .progress {
+        margin-bottom: 2%;
+    }
+    }
 
 #services {
     background: rgb(28,50,83);
