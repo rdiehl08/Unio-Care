@@ -261,11 +261,11 @@ color: #efefed;
     }
   }
   
-  @media (max-width: 575px) {
+@media (max-width: 575px) {
     .progress {
         margin-bottom: 2%;
     }
-    }
+}
 
 #services {
     background: rgb(28,50,83);
@@ -534,6 +534,68 @@ color: #efefed;
     background-color: rgb(28, 50, 83);
     list-style: none;
     text-align: left;
+}
+
+@media (max-width: 768px) {
+    .about-uniocare ul li {
+        border-bottom: 0.5px solid #1d3354;
+        padding: 8% 1% 4%;
+        list-style: none;
+        text-align: center;
+    }
+    .about-uniocare ul li:hover {
+        transition: 0.5s;
+        padding: 6% 1% 3%;
+        color: #9ed8d8;
+        background-color: rgb(28, 50, 83);
+        list-style: none;
+        text-align: center;
+    }
+    .about-unioadmin ul li {
+        border-bottom: 0.5px solid #1d3354;
+        padding: 8% 0% 4% 1%;
+        list-style: none;
+        text-align: center;
+    }
+    .about-unioadmin ul li:hover {
+        transition: 0.5s;
+        padding: 6% 0% 3% 1%; 
+        color: #9ed8d8;
+        background-color: rgb(28, 50, 83);
+        list-style: none;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .about-uniocare ul li {
+        border-bottom: 0.5px solid #1d3354;
+        padding: 8% 1% 4%;
+        list-style: none;
+        text-align: center;
+    }
+    .about-uniocare ul li:hover {
+        transition: 0.5s;
+        padding: 6% 1% 3%;
+        color: #9ed8d8;
+        background-color: rgb(28, 50, 83);
+        list-style: none;
+        text-align: center;
+    }
+    .about-unioadmin ul li {
+        border-bottom: 0.5px solid #1d3354;
+        padding: 8% 0% 4% 1%;
+        list-style: none;
+        text-align: center;
+    }
+    .about-unioadmin ul li:hover {
+        transition: 0.5s;
+        padding: 6% 0% 3% 1%; 
+        color: #9ed8d8;
+        background-color: rgb(28, 50, 83);
+        list-style: none;
+        text-align: center;
+    }
 }
 
 /*------------------Promo Strip------------------*/
