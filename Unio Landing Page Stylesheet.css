@@ -597,7 +597,7 @@ color: #efefed;
         text-align: center;
     }
     .about-image img {
-        float: none;
+        margin: auto;
     }
 }
 
