@@ -565,6 +565,9 @@ color: #efefed;
         list-style: none;
         text-align: center;
     }
+    #about img {
+        margin: auto;
+    }
 }
 
 @media (max-width: 575px) {
@@ -596,7 +599,7 @@ color: #efefed;
         list-style: none;
         text-align: center;
     }
-    .about-image img {
+    #about img {
         margin: auto;
     }
 }
