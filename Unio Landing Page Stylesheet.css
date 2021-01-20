@@ -416,6 +416,13 @@ color: #efefed;
     list-style: none;
     text-align: center;
 }
+@media (max-width: 575px) {
+    #insights img {
+        max-width: 70%;
+        height: auto;
+        margin: -2%% 15% -2%% 15%;
+    }
+}
 
 /*------------------Our Services-----------------*/
 #about {
