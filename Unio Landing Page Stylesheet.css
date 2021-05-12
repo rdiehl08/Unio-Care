@@ -911,5 +911,6 @@ color: #efefed;
 #footer h4 {
     text-align: center;
     color: #1d3354;
-    padding-top: 15px;
+    padding: 15px 0;
+    margin: 0;
 }
